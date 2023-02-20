@@ -1,0 +1,25 @@
+{
+  "name": "frontend-project-44",
+  "version": "1.0.0",
+  "description": "[![Actions Status](https://github.com/bUbL1q/frontend-project-44/workflows/hexlet-check/badge.svg)](https://github.com/bUbL1q/frontend-project-44/actions)",
+  "main": "index.js",
+  "bin": {
+    "brain-games": "bin/brain-games.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "type": "module",
+  "repository": {
+    "url": "git+https://github.com/bUbL1q/frontend-project-44.git"
+  },
+  "author": "Alexandr Petrov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bUbL1q/frontend-project-44/issues"
+  },
+  "homepage": "https://github.com/bUbL1q/frontend-project-44#readme",
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  }
+}
