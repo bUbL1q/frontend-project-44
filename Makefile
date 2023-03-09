@@ -27,3 +27,6 @@ brain-even:
 
 brain-games:
  node bin/brain-games.js
+ 
+brain-calc :
+	nade bin/brain-calc.js
