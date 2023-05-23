@@ -20,7 +20,7 @@ const gameCalc = () => {
         if (all === '*'){
             trueanswer = num1 * num2
         } 
-        const ural = logic(trueanswer, answer, i);
+        const ural = logic(String(trueanswer), answer, i);
         if (ural) {
           break
     }
