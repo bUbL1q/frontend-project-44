@@ -2,7 +2,7 @@ import welcome from '../src/cli.js';
 
 const name = welcome();
 
-const logic = (trueanswer, answer, i) => {
+const logic = (answer, trueanswer, i) => {
 if (String(trueanswer) === answer) {
   console.log ('Correct!')
 } else {
