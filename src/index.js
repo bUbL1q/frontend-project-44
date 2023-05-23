@@ -3,7 +3,7 @@ import welcome from '../src/cli.js';
 const name = welcome();
 
 const logic = (answer, trueanswer, i) => {
-if (String(trueanswer) === answer) {
+if (trueanswer === answer) {
   console.log ('Correct!')
 } else {
   console.log (`'${answer}' is wrong answer ;(. Correct answer was '${trueanswer}'.`)
