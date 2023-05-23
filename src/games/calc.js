@@ -12,15 +12,15 @@ const gameCalc = () => {
         const answer = readlineSync.question('Your answer: ')
         let trueanswer;
         if (all === '+'){
-            trueanswer = num1 + num2
+            trueanswer = String(num1 + num2)
         } 
         if (all === '-'){
-            trueanswer = num1 - num2
+            trueanswer = String(num1 - num2)
         } 
         if (all === '*'){
-            trueanswer = num1 * num2
+            trueanswer = String(num1 * num2)
         } 
-        const ural = logic(String(trueanswer), answer, i);
+        const ural = logic(trueanswer, answer, i);
         if (ural) {
           break
     }
