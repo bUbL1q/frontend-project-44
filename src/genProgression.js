@@ -1,4 +1,4 @@
-import getRandomNumber from "./randomnumber.js";
+import getRandomNumber from './randomnumber.js';
 
 const getres = (a) => {
   const result = [];
